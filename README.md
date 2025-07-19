@@ -1,8 +1,8 @@
-# 📞 Notificador de Mensagens de Voz via Telegram para Asterisk
+#Notificador de Mensagens de Voz via Telegram para Asterisk
 
 Este projeto contém dois scripts Bash que monitoram a caixa postal do Asterisk e enviam mensagens de voz automaticamente para um grupo do Telegram sempre que um novo áudio `.wav` for recebido.
 
-## 🚀 Funcionalidade
+#Funcionalidade
 
 - Monitoramento contínuo da pasta de voicemail (`INBOX`) usando `inotifywait`.
 - Envio automático de mensagem formatada com:
@@ -11,7 +11,7 @@ Este projeto contém dois scripts Bash que monitoram a caixa postal do Asterisk 
 - Envio do áudio `.wav` da mensagem de voz para um grupo do Telegram.
 - Remoção automática dos arquivos após o envio.
 
-## 🛠️ Pré-requisitos
+#Pré-requisitos
 
 - Asterisk configurado com voicemail.
 - Voicemail Blasting e Announcements devidamente configurados.
@@ -22,14 +22,14 @@ Este projeto contém dois scripts Bash que monitoram a caixa postal do Asterisk 
 - Um bot do Telegram criado e com permissão para enviar mensagens para o grupo.
 - ID do grupo do Telegram e token do bot.
 
-## 📁 Estrutura
+#Estrutura
 
 ```bash
 voicemail_monitor.sh           # Script que monitora a pasta de voicemail
 enviar_voicemail_telegram.sh  # Script que envia a mensagem e o áudio para o Telegram
 ```
 
-## 🧩 Configuração
+#Configuração
 
 1. **Edite os caminhos e variáveis nos scripts:**
 
@@ -60,7 +60,7 @@ enviar_voicemail_telegram.sh  # Script que envia a mensagem e o áudio para o Te
    ./voicemail_monitor.sh &
    ```
 
-## 📬 Exemplo de mensagem enviada ao Telegram
+#Exemplo de mensagem enviada ao Telegram
 
 ```
 📞 Nova mensagem de voz  
@@ -70,12 +70,12 @@ enviar_voicemail_telegram.sh  # Script que envia a mensagem e o áudio para o Te
 
 Com o áudio em anexo.
 
-## 🔐 Segurança
+#Segurança
 
 - Certifique-se de restringir permissões de leitura nos scripts para evitar vazamento do token do Telegram.
 - O bot deve estar autorizado a interagir com o grupo.
 
-## 📄 Licença
+#Licença
 
 Este projeto é open source entao contribuições, melhorias e sugestões são bem-vindas!
 -Testado no Asterisk 11.25.3
