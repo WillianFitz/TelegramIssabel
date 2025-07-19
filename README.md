@@ -76,8 +76,4 @@ Com o áudio em anexo.
 
 ## 📄 Licença
 
-Este projeto é open source e está licenciado sob a [MIT License](LICENSE).
-
----
-
-Contribuições, melhorias e sugestões são bem-vindas!
+Este projeto é open source entao contribuições, melhorias e sugestões são bem-vindas!
