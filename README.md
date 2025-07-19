@@ -14,6 +14,7 @@ Este projeto contém dois scripts Bash que monitoram a caixa postal do Asterisk 
 ## 🛠️ Pré-requisitos
 
 - Asterisk configurado com voicemail.
+- Voicemail Blasting e Announcements devidamente configurados
 - `inotify-tools` instalado:
   ```bash
   sudo apt install inotify-tools
