@@ -64,7 +64,7 @@ enviar_voicemail_telegram.sh  # Script que envia a mensagem e o áudio para o Te
 
 ```
 📞 Nova mensagem de voz  
-👤 Número: 11999998888  
+👤 Número: 4699999999  
 🕒 Data: 19/07/2025 09:32
 ```
 
@@ -78,3 +78,7 @@ Com o áudio em anexo.
 ## 📄 Licença
 
 Este projeto é open source entao contribuições, melhorias e sugestões são bem-vindas!
+Testado no Asterisk 11.25.3
+Versão do Issabel: 4.0.0
+Em outras versões podem haver modificações no Script
+
