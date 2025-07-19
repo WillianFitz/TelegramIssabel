@@ -14,7 +14,7 @@ Funcionalidade
 Pré-requisitos
 
 - Asterisk configurado com voicemail.
-- `inotify-tools` instalado:
+- 'inotify-tools' instalado:
   ```bash
   sudo apt install inotify-tools
   ```
@@ -34,7 +34,7 @@ Configuração
    VOICEMAIL_DIR="/var/spool/asterisk/voicemail/default/SEURAMAL/INBOX"
    ```
 
-   No `enviar_voicemail_telegram.sh`, defina seu token e ID do grupo do Telegram:
+   No 'enviar_voicemail_telegram.sh', defina seu token e ID do grupo do Telegram:
    
    TOKEN="SEU TOKEN TELEGRAM"
    CHAT_ID="SEU ID DO GRUPO"
